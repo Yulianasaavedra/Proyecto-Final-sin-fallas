@@ -3,14 +3,13 @@
     height: 500px;
     border-top: 45px solid;
     border-color: black;
-    border-bottom: 45px solid;
     border-color: black;
     justify-content: center;
     background-color: black;
 }
 #contenido{
-    margin-top: 90px;
-    margin-bottom: 90px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #container-card{
@@ -19,7 +18,7 @@
 }
 
 #container-card > div > div.col-md-7{
-    padding-left: 50px;
+    padding-left: 90px;
 }
 
 #container-card > div > div.col-md-5 > img{
@@ -36,3 +35,53 @@
     display: flex;
     justify-content: center;
 }
+
+.containercards{
+    display: flex;
+    width: 1000px;
+}
+
+.containercards1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#containercarrusel{
+    display: flex;
+    margin-top: 50px;
+    width: 1100px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.containercarrusel1{
+    display: flex;
+    justify-content: center;
+}
+#carouselExampleDark > div.carousel-inner > div:nth-child(1) > div > h5{
+color: black;
+background-color: wheat;
+
+}
+#carouselExampleDark > div.carousel-inner > div:nth-child(1) > div > p{
+    color: black;
+background-color: wheat;
+}
+#carouselExampleDark > div.carousel-inner > div:nth-child(2) > div > h5{
+    color: black;
+background-color: wheat;
+}
+#carouselExampleDark > div.carousel-inner > div:nth-child(2) > div > p{
+    color: black;
+background-color: wheat;
+}
+
+#carouselExampleDark > div.carousel-inner > div:nth-child(3) > div > h5{
+    color: black;
+background-color: wheat;
+}
+#carouselExampleDark > div.carousel-inner > div:nth-child(3) > div > p{
+    color: black;
+background-color: wheat;
+}
+

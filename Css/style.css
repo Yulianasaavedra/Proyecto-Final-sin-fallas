@@ -1,0 +1,38 @@
+#inicio-vid{
+    display: flex;
+    height: 500px;
+    border-top: 45px solid;
+    border-color: black;
+    border-bottom: 45px solid;
+    border-color: black;
+    justify-content: center;
+    background-color: black;
+}
+#contenido{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+#container-card{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+#container-card > div > div.col-md-7{
+    padding-left: 50px;
+}
+
+#container-card > div > div.col-md-5 > img{
+    display: flex;
+    width: 280px;
+}
+
+#container-card > div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#container-card > div > div.col-md-5{
+    display: flex;
+    justify-content: center;
+}

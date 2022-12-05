@@ -1,3 +1,13 @@
+.color1 {color: #532f38;}
+.color2 {color: #6f434c;}
+.color3 {color: #9d656d;}
+.color4 {color: #db9897;}
+.color5 {color: #f8d0cd;}
+
+
+#productoscards{
+    padding: 20px;
+}
 #inicio-vid{
     display: flex;
     width: 100%;

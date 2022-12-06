@@ -6,7 +6,8 @@
 
 
 #productoscards{
-    padding: 20px;
+    padding: 0px;
+
 }
 #inicio-vid{
     display: flex;
@@ -90,13 +91,10 @@ background-color: wheat;
     color: black;
 background-color: wheat;
 }
+
 #carouselExampleDark > div.carousel-inner > div:nth-child(3) > div > p{
     color: black;
 background-color: wheat;
-}
-
-main>.container {
-    padding: 80px 0;
 }
 
 
@@ -108,4 +106,14 @@ main>.container {
     border-bottom: 0px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+#productoscards > div > div:nth-child(1){
+    border-bottom: 7px solid #532f38;
+}
+#productoscards > div > div:nth-child(2){
+    border-bottom: 7px solid #532f38;
+}
+#productoscards > div > div:nth-child(3){
+    border-bottom: 7px solid #532f38;
 }
